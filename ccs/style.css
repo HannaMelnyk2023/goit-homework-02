@@ -1,0 +1,111 @@
+/* основний білий background: #FFF;
+основний чорний background: #2F303A;
+вторинний білий background: #F5F4FA; 
+акцент фону background: #2196F3;
+
+
+головний color: #757575;
+вторинний color: #212121;
+акцент color: #2196F3;
+Лого #000000
+#2196F3
+
+
+футер #FFF
+#FFFFFF99
+
+фон карток Проєкти background: #EEEEEE
+*/
+
+.root {
+  --prime-color--: #757575;
+  --second-color--: #212121;
+  --accent-color--: #2196f3;
+  --logo-blackcolor--: #000000;
+  --logo-whitecolor--: #fff;
+  --prime-white-background--: #fff;
+  --second--white-background--: #f5f4fa;
+  --black-background--: #2f303a;
+  --accent-background--: #2196f3;
+}
+
+body {
+  background-color: #fff;
+  color: #757575;
+}
+
+.list {
+  list-style-type: none;
+}
+.logo {
+  color: #2196f3;
+}
+
+.header-logo {
+  text-decoration: none;
+  color: #000000;
+}
+.header-nav-link {
+  color: #212121;
+  text-decoration: none;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #2196f3;
+}
+.hero {
+  color: #fff;
+  background-color: #2f303a;
+}
+.hero-button {
+  background-color: #2196f3;
+}
+
+.button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.title-second {
+  color: #212121;
+}
+.title-third {
+  color: #212121;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.team-item {
+  background-color: #fff;
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-address {
+  text-decoration: none;
+  color: #fff;
+  font-style: normal;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ffffff99;
+  font-style: normal;
+}
+.footer-link:hover,
+.footer-link:focus,
+.footer-address:hover,
+.footer-address:focus {
+  color: #2196f3;
+}
