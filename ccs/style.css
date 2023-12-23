@@ -2,110 +2,130 @@
 основний чорний background: #2F303A;
 вторинний білий background: #F5F4FA; 
 акцент фону background: #2196F3;
-
-
 головний color: #757575;
 вторинний color: #212121;
 акцент color: #2196F3;
-Лого #000000
-#2196F3
+Лого #000000,#2196F3
 
+футер #FFF,#FFFFFF99
 
-футер #FFF
-#FFFFFF99
+фон карток Проєкти background: #EEEEEE*/
 
-фон карток Проєкти background: #EEEEEE
-*/
+/* текст лого
 
-.root {
-  --prime-color--: #757575;
-  --second-color--: #212121;
-  --accent-color--: #2196f3;
-  --logo-blackcolor--: #000000;
-  --logo-whitecolor--: #fff;
-  --prime-white-background--: #fff;
-  --second--white-background--: #f5f4fa;
-  --black-background--: #2f303a;
-  --accent-background--: #2196f3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px; */
+/* Навігація шрифт 
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px; */
+/* h1
+
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+/* letter-spacing: 2.64px; */
+
+:root {
+  --prime-color: #757575;
+  --second-color: #212121;
+  --accent-color: #2196f3;
+  --logo-blackcolor: #000000;
+  --logo-whitecolor: #fff;
+  --footer-link-color: #fff9;
+  --prime-white-background: #fff;
+  --second-white-background: #f5f4fa;
+  --black-background: #2f303a;
+  --accent-background: #2196f3;
 }
 
 body {
-  background-color: #fff;
-  color: #757575;
+  background-color: var(--prime-white-background);
+  color: var(--prime-color);
 }
 
 .list {
   list-style-type: none;
 }
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-logo {
   text-decoration: none;
-  color: #000000;
+  color: var(--logo-blackcolor);
 }
+
 .header-nav-link {
-  color: #212121;
+  color: var(--second-color);
   text-decoration: none;
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus {
-  color: #2196f3;
-}
 .hero {
-  color: #fff;
-  background-color: #2f303a;
+  color: var(--logo-whitecolor);
+  background-color: var(--black-background);
 }
 .hero-button {
-  background-color: #2196f3;
+  background-color: var(--accent-background);
+  color: inherit;
 }
 
 .button {
-  background-color: #f5f4fa;
-  color: #212121;
+  background-color: var(--second-white-background);
+  color: var(--second-color);
 }
 
 .button:hover,
 .button:focus {
-  background-color: #2196f3;
-  color: #fff;
+  background-color: var(--accent-background);
+  color: var(--logo-whitecolor);
 }
 
 .title-second {
-  color: #212121;
+  color: var(--second-color);
 }
 .title-third {
-  color: #212121;
+  color: var(--second-color);
 }
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--second-white-background);
 }
 .team-item {
-  background-color: #fff;
+  background-color: var(--prime-white-background);
 }
 .footer {
-  background-color: #2f303a;
+  background-color: var(--black-background);
 }
 .footer-logo {
   text-decoration: none;
-  color: #fff;
+  color: var(--logo-whitecolor);
 }
 .footer-address {
   text-decoration: none;
-  color: #fff;
+  color: var(--logo-whitecolor);
   font-style: normal;
 }
 
 .footer-link {
   text-decoration: none;
-  color: #ffffff99;
+  color: var(--footer-link-color);
   font-style: normal;
 }
 .footer-link:hover,
 .footer-link:focus,
 .footer-address:hover,
-.footer-address:focus {
-  color: #2196f3;
+.footer-address:focus,
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
 }
