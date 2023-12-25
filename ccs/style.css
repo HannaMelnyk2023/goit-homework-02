@@ -56,6 +56,17 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.header-nav-link.current {
+  color: var(--accent-color);
+}
+.header-address {
+  color: var(--prime-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 /* Головна сторинка */
 /* Герой */
 .hero {
@@ -67,6 +78,7 @@ body {
   font-weight: 900;
   line-height: 1.4;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -107,6 +119,7 @@ body {
 }
 .team-item-title {
   color: var(--second-color);
+  font-size: 16px;
   font-weight: 500;
   line-height: 2;
   letter-spacing: 0.03em;
@@ -132,6 +145,9 @@ body {
   background-color: var(--accent-background);
   color: var(--logo-whitecolor);
 }
+.portfolio-link {
+  text-decoration: none;
+}
 .portfolio-title {
   color: var(--second-color);
   font-size: 18px;
@@ -140,6 +156,8 @@ body {
   letter-spacing: 0.06em;
 }
 .portfolio-disc {
+  color: var(--prime-color);
+  font-size: 16px;
   line-height: 2;
   letter-spacing: 0.03em;
 }
@@ -161,17 +179,21 @@ body {
 .footer-address {
   text-decoration: none;
   color: var(--logo-whitecolor);
+  font-style: normal;
 }
 
 .footer-link {
-  text-decoration: none;
   color: var(--footer-link-color);
+  text-decoration: none;
+  font-style: normal;
 }
 .footer-link:hover,
 .footer-link:focus,
 .footer-address:hover,
 .footer-address:focus,
 .header-nav-link:hover,
-.header-nav-link:focus {
+.header-nav-link:focus,
+.header-address:hover,
+.header-address:focus {
   color: var(--accent-color);
 }
